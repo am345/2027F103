@@ -1,0 +1,57 @@
+# Keil build outputs. Keep .uvprojx, startup assembly, and source linker scripts.
+/MDK-ARM/lesson01_led/
+/MDK-ARM/Objects/
+/MDK-ARM/Listings/
+*.o
+*.obj
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.crf
+*.d
+*.dep
+*.lnp
+*.build_log.htm
+
+# Local uVision debugger selections, probe IDs, and window state.
+*.uvopt
+*.uvoptx
+*.uvgui.*
+*.uvguix.*
+*.uvmpw
+
+# Keil Studio / CMSIS build caches and local editor state.
+# Shareable .csolution.yml, .cproject.yml, .cbuild-pack.yml, and vcpkg manifests
+# can be committed if a converted project is deliberately added later.
+/MDK-ARM/out/
+/MDK-ARM/tmp/
+/MDK-ARM/build/
+.cmsis/
+.vscode/
+.clangd
+.cache/
+*.cbuild.yml
+*.cbuild-idx.yml
+*.cbuild-run.yml
+*.cbuild-set.yml
+compile_commands.json
+compile_macros_c.h
+*.log
+
+# CubeMX generation history; the .ioc configuration is versioned.
+.mxproject
+
+# Local backups and temporary files.
+backups/
+*.zip
+*.bak
+*.tmp
+*~
+
+# OS metadata.
+.DS_Store
+Thumbs.db
+Desktop.ini
